@@ -1,0 +1,32 @@
+1. install using keygen.
+2. open up photoshop, close 'Adobe CS5 Live Account' Popup, without registration.
+
+1. open C:\Program Files\Common Files\Adobe\OOBE
+change folder name: 
+    \PDApp  ->  \1PDApp
+
+2. open C:\Program Files\Common Files\Adobe
+change folders names:
+    \Bridge CS5 Extensions  ->  \1Bridge CS5 Extensions
+    \CS5ServiceManager      ->  \1CS5ServiceManager
+    \Startup Scripts CS5    ->  \1Startup Scripts CS5
+    
+3. open up photoshop, go to menu: edit->preferences->plugins.
+   uncheck all checkes in the extention panel.
+   
+4. open up registry editor (registry workshop is best).
+   browse HKEY_LOCAL_MACHINE\SOFTWARE\Adobe
+   create new string value named: AdobeOnlineDefault and set the data to 0 .
+
+
+
+
+
+
+
+
+
+*
+--------
+C:\Program Files\Common Files\Adobe\CS5ServiceManager
+C:\Program Files\Common Files\Adobe\SwitchBoard

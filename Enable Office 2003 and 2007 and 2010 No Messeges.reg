@@ -1,0 +1,67 @@
+Windows Registry Editor Version 5.00
+;==========================================================================================
+;- This Prevents Showing Registering Window When Ever Switching From Office 2003 to 2007,
+;- For Custom Versions Of Office, You Should Browse Using Registry-Explorer Program
+;- to HKEY_CURRENT_USER\Software\Microsoft\Office\ and look on the Keys Numbers,
+;- 11.0 is 2003, 12.0 is 2007, For Office XP or 2000 Copy And Paste The Part Downstairs here,
+;- with a Custom Number According to What Is In You Registry.
+;- More Information About This in: http://support.microsoft.com/kb/928091/en-us
+;==========================================================================================
+
+;Microsoft Office Version 2003
+;-------------------------------------------------------------------------------
+[HKEY_CURRENT_USER\Software\Microsoft\Office\11.0\Outlook\Options]
+"NoReReg"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\11.0\PowerPoint\Options]
+"NoReReg"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\11.0\Publisher\Options]
+"NoReReg"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\11.0\Visio\Options]
+"NoReReg"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\11.0\Word\Options]
+"NoReReg"=dword:00000001
+;-------------------------------------------------------------------------------
+
+
+
+;Microsoft Office Version 2007
+;-------------------------------------------------------------------------------
+[HKEY_CURRENT_USER\Software\Microsoft\Office\12.0\Outlook\Options]
+"NoReReg"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\12.0\PowerPoint\Options]
+"NoReReg"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\12.0\Publisher\Options]
+"NoReReg"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\12.0\Visio\Options]
+"NoReReg"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\12.0\Word\Options]
+"NoReReg"=dword:00000001
+;-------------------------------------------------------------------------------
+
+
+
+;Microsoft Office Version 2010
+;-------------------------------------------------------------------------------
+[HKEY_CURRENT_USER\Software\Microsoft\Office\13.0\Outlook\Options]
+"NoReReg"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\13.0\PowerPoint\Options]
+"NoReReg"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\13.0\Publisher\Options]
+"NoReReg"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\13.0\Visio\Options]
+"NoReReg"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\13.0\Word\Options]
+"NoReReg"=dword:00000001
+;-------------------------------------------------------------------------------

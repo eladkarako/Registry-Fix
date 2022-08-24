@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+;removing the context-menu-item without "really uninstalling"
+[-HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\Convert]
+[-HKEY_CLASSES_ROOT\TxView.1\ShellEx\ContextMenuHandlers\Convert]
+[-HKEY_CLASSES_ROOT\pngfile\ShellEx\ContextMenuHandlers\Convert]
+[-HKEY_CLASSES_ROOT\pfmfile\shellex\ContextMenuHandlers\Convert]
+[-HKEY_CLASSES_ROOT\Paint.Picture\ShellEx\ContextMenuHandlers\Convert]
+[-HKEY_CLASSES_ROOT\jpegfile\ShellEx\ContextMenuHandlers\Convert]

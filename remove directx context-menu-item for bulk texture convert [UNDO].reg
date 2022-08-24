@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+;bring back a previouly removed context-menu item (assuming it is still registered)
+[HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\Convert]
+@="{9f95ca1a-e80e-4c0f-acd1-4c9b7900b982}"
+
+[HKEY_CLASSES_ROOT\TxView.1\ShellEx\ContextMenuHandlers\Convert]
+@="{9f95ca1a-e80e-4c0f-acd1-4c9b7900b982}"
+
+[HKEY_CLASSES_ROOT\pngfile\ShellEx\ContextMenuHandlers\Convert]
+@="{9f95ca1a-e80e-4c0f-acd1-4c9b7900b982}"
+
+[HKEY_CLASSES_ROOT\pfmfile\shellex\ContextMenuHandlers\Convert]
+@="{9f95ca1a-e80e-4c0f-acd1-4c9b7900b982}"
+
+[HKEY_CLASSES_ROOT\Paint.Picture\ShellEx\ContextMenuHandlers\Convert]
+@="{9f95ca1a-e80e-4c0f-acd1-4c9b7900b982}"
+
+[HKEY_CLASSES_ROOT\jpegfile\ShellEx\ContextMenuHandlers\Convert]
+@="{9f95ca1a-e80e-4c0f-acd1-4c9b7900b982}"

@@ -1,0 +1,26 @@
+New
+212.117.129.3   pdns.012.net.il
+212.117.128.6   sdns.012.net.il
+
+New (cname for legacy purposes)
+212.117.129.3   pdns.goldenlines.net.il
+212.117.128.6   sdns.goldenlines.net.il
+
+
+New
+Additional:
+80.179.53.40    pdns-1.012.net.il
+80.179.53.41    pdns-2.012.net.il
+
+80.179.53.52    sdns-1.012.net.il
+80.179.53.51    sdns-2.012.net.il
+
+Legacy (better use new one):
+80.179.52.100   ns-pt-vip.012.net.il
+80.179.55.100   ns-med1-vip.012.net.il
+
+
+
+
+כתובות הdns של 012 למסלול גיימר
+שרתי DNS

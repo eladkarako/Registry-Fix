@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+;part of https://github.com/eladkarako/explorer.exe_long_path_awareness and https://github.com/eladkarako/manifest
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\SideBySide]
+"PreferExternalManifest"=-

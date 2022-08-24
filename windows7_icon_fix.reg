@@ -1,0 +1,116 @@
+Windows Registry Editor Version 5.00
+
+;hard delete (including any additions!)
+;--------------------------------------------
+
+[-HKEY_CLASSES_ROOT\.ico]
+[-HKEY_CLASSES_ROOT\icofile]
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ico]
+
+[-HKEY_CLASSES_ROOT\.cur]
+[-HKEY_CLASSES_ROOT\curfile]
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.cur]
+
+[-HKEY_CLASSES_ROOT\.ani]
+[-HKEY_CLASSES_ROOT\anifile]
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ani]
+
+
+;original values (from clean Windows7)
+;--------------------------------------------
+
+;ICO - #1
+[HKEY_CLASSES_ROOT\.ico]
+"Content Type"="image/x-icon"
+@="icofile"
+"PerceivedType"="image"
+
+[HKEY_CLASSES_ROOT\.ico\PersistentHandler]
+@="{098f2470-bae0-11cd-b579-08002b30bfeb}"
+;ICO - #2
+[HKEY_CLASSES_ROOT\icofile]
+@="Icon"
+"FriendlyTypeName"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,\
+  00,6f,00,6f,00,74,00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,\
+  32,00,5c,00,73,00,68,00,65,00,6c,00,6c,00,33,00,32,00,2e,00,64,00,6c,00,6c,\
+  00,2c,00,2d,00,33,00,30,00,36,00,30,00,31,00,00,00
+"ImageOptionFlags"=dword:00000000
+
+[HKEY_CLASSES_ROOT\icofile\DefaultIcon]
+@="%1"
+
+[HKEY_CLASSES_ROOT\icofile\shell]
+
+[HKEY_CLASSES_ROOT\icofile\shell\open]
+"MuiVerb"=hex(2):40,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,\
+  69,00,6c,00,65,00,73,00,25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,\
+  00,20,00,50,00,68,00,6f,00,74,00,6f,00,20,00,56,00,69,00,65,00,77,00,65,00,\
+  72,00,5c,00,70,00,68,00,6f,00,74,00,6f,00,76,00,69,00,65,00,77,00,65,00,72,\
+  00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,33,00,30,00,34,00,33,00,00,00
+
+[HKEY_CLASSES_ROOT\icofile\shell\open\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\
+  6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,\
+  00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,00,65,00,73,00,\
+  25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,20,00,50,00,68,00,6f,\
+  00,74,00,6f,00,20,00,56,00,69,00,65,00,77,00,65,00,72,00,5c,00,50,00,68,00,\
+  6f,00,74,00,6f,00,56,00,69,00,65,00,77,00,65,00,72,00,2e,00,64,00,6c,00,6c,\
+  00,22,00,2c,00,20,00,49,00,6d,00,61,00,67,00,65,00,56,00,69,00,65,00,77,00,\
+  5f,00,46,00,75,00,6c,00,6c,00,73,00,63,00,72,00,65,00,65,00,6e,00,20,00,25,\
+  00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\icofile\shell\open\DropTarget]
+"Clsid"="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}"
+
+[HKEY_CLASSES_ROOT\icofile\shellex]
+
+[HKEY_CLASSES_ROOT\icofile\shellex\{BB2E617C-0920-11d1-9A0B-00C04FC2D6C1}]
+@="{43372ada-945b-4713-82db-d217b338ae6f}"
+
+[HKEY_CLASSES_ROOT\icofile\shellex\{e357fccd-a995-4576-b01f-234630154e96}]
+@="{43372ada-945b-4713-82db-d217b338ae6f}"
+;ICO - #3
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ico]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ico\OpenWithProgids]
+"icofile"=hex(0):
+
+
+;CUR - #1
+[HKEY_CLASSES_ROOT\.cur]
+@="curfile"
+
+[HKEY_CLASSES_ROOT\.cur\PersistentHandler]
+@="{098f2470-bae0-11cd-b579-08002b30bfeb}"
+
+;CUR - #2
+[HKEY_CLASSES_ROOT\curfile]
+@="Cursor"
+"FriendlyTypeName"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,\
+  00,6f,00,6f,00,74,00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,\
+  32,00,5c,00,73,00,68,00,65,00,6c,00,6c,00,33,00,32,00,2e,00,64,00,6c,00,6c,\
+  00,2c,00,2d,00,38,00,34,00,36,00,35,00,00,00
+
+[HKEY_CLASSES_ROOT\curfile\DefaultIcon]
+@="%1"
+
+;CUR - #3 - - - NOPE.
+
+
+;ANI - #1
+[HKEY_CLASSES_ROOT\.ani]
+@="anifile"
+
+;ANI - #2
+[HKEY_CLASSES_ROOT\anifile]
+@="Animated Cursor"
+"FriendlyTypeName"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,\
+  00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,\
+  32,00,5c,00,6d,00,61,00,69,00,6e,00,2e,00,63,00,70,00,6c,00,2c,00,2d,00,32,\
+  00,30,00,30,00,30,00,00,00
+
+[HKEY_CLASSES_ROOT\anifile\DefaultIcon]
+@="%1"
+
+;ANI - #3 - - - NOPE.

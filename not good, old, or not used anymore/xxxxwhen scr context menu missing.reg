@@ -1,0 +1,33 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.scr]
+@="scrfile"
+
+[HKEY_CLASSES_ROOT\scrfile]
+@="Screen Saver"
+
+[HKEY_CLASSES_ROOT\scrfile\shell]
+
+[HKEY_CLASSES_ROOT\scrfile\shell\config]
+@="C&onfigure"
+
+[HKEY_CLASSES_ROOT\scrfile\shell\config\command]
+@="\"%1\""
+
+[HKEY_CLASSES_ROOT\scrfile\shell\install]
+@="&Install"
+
+[HKEY_CLASSES_ROOT\scrfile\shell\install\command]
+@="rundll32.exe desk.cpl,InstallScreenSaver %l"
+
+[HKEY_CLASSES_ROOT\scrfile\shell\open]
+@="T&est"
+
+[HKEY_CLASSES_ROOT\scrfile\shell\open\command]
+@="\"%1\" /S"
+
+[HKEY_CLASSES_ROOT\scrfile\shellex]
+
+[HKEY_CLASSES_ROOT\scrfile\shellex\DropHandler]
+@="{86C86720-42A0-1069-A2E8-08002B30309D}"
+

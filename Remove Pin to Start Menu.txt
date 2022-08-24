@@ -1,0 +1,9 @@
+Local Computer Policy
+   User Configuration
+      Administrative Templates
+         Start Menu and Taskbar
+         
+setting:
+Remove pinned programs list from the Start Menu
+Not configured->Enabled
+

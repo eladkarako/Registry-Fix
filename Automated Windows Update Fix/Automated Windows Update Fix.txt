@@ -1,0 +1,2 @@
+The automated fix (WUFix) performs the following functions:
+Clears out the proxy cache, places Windows Update sites in the Trusted Zone, places Windows Update sites in the exception list of IE Popup Blocker, starts all dependent services, registers required DLLS, empties the Windows Update temporary folder (with backup), renames the catroot2 folder, retains update history and Event log, and deletes BITS pending download queue.

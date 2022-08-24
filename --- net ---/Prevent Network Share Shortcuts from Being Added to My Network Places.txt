@@ -1,0 +1,15 @@
+Prevent Network Share Shortcuts from Being Added to My Network Places
+When you open a file that is located on a file server share,
+a shortcut to the server share is automatically added to My Network Places.
+This article describes how to disable this functionality. When you open a file
+(or a Microsoft FrontPage web) from a Universal Naming Convention (UNC) share,
+a shortcut to the share is placed in My Network Places.
+To disable this functionality, you must change the local system policy or network policy to
+prevent servers from being added to My Network Places. 
+see http://support.microsoft.com/kb/242578
+
+gpedit.msc
+User Configuration
+Administrative Templates
+Desktop
+Do not add shares of recently opened documents to My Network Places -> Enable.

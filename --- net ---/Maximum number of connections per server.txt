@@ -1,0 +1,14 @@
+Local Computer Policy
+   User Configuration
+      Administrative Templates
+         Windows Components
+            Internet Explorer
+               Security Features
+                  AJAX
+
+settings:
+Maximum number of connections per server (HTTP 1.1)
+"Not configured" -> "Enable" + 30 downloads.
+
+Maximum number of connections per server (HTTP 1.0)
+"Not configured" -> "Enable" + 30 downloads.

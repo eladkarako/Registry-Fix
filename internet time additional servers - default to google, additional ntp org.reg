@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DateTime\Servers]
+@="0"
+"0"="time.google.com"
+"1"="pool.ntp.org"
+"2"="time.windows.com"
+"3"="time.nist.gov"
+"4"="time-nw.nist.gov"
+"5"="time-a.nist.gov"
+"6"="time-b.nist.gov"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\W32Time\Parameters]
+"NtpServer"="time.google.com,0x9"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\services\W32Time\Parameters]
+"NtpServer"="time.google.com,0x9"

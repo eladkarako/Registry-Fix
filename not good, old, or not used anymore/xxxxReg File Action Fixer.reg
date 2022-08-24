@@ -1,0 +1,55 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.reg]
+@="regfile"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.reg\PersistentHandler]
+@="{5e941d80-bf96-11cd-b579-08002b30bfeb}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\regfile]
+@="Registration Entries"
+"EditFlags"=dword:00100000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\regfile\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,72,00,65,00,67,00,65,00,64,00,69,00,74,00,2e,00,65,00,78,00,65,00,\
+  2c,00,31,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\regfile\shell]
+"EditFlags"=dword:497b797f
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\regfile\shell\edit]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\regfile\shell\edit\command]
+@=hex(2):22,00,44,00,3a,00,5c,00,53,00,6f,00,66,00,74,00,77,00,61,00,72,00,65,\
+  00,5c,00,4e,00,4f,00,74,00,65,00,70,00,61,00,64,00,20,00,32,00,2e,00,30,00,\
+  5c,00,4e,00,6f,00,74,00,65,00,70,00,61,00,64,00,32,00,2e,00,65,00,78,00,65,\
+  00,22,00,20,00,22,00,25,00,31,00,22,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\regfile\shell\Edit with Registry Workshop]
+@="Registry &Workshop"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\regfile\shell\Edit with Registry Workshop\command]
+@="\"D:\\Software\\All Security\\Registry Workshop\\RegWorkshop.exe\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\regfile\shell\open]
+@="Mer&ge"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\regfile\shell\open\command]
+@="regedit.exe \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\regfile\shell\print]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\regfile\shell\print\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,2f,00,70,00,20,\
+  00,25,00,31,00,00,00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.reg]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.reg\OpenWithList]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.reg\OpenWithProgids]
+"regfile"=hex(0):
+

@@ -1,0 +1,2 @@
+C:\Windows\System32\FNTCACHE.DAT
+C:\Windows\SysWOW64\FNTCACHE.DAT

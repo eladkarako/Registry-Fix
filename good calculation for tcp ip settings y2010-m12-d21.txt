@@ -1,0 +1,34 @@
+1. TCP 1323 Options need to be enabled for RWIN over 2^16 (65535).
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters
+Tcp1323Opts=1
+DWORD
+==============================================================================================
+2. MTU
+================
+ping -f -l 1452 www.google.com
+
+MTU=1452+28
+=>1480.
+==============================================================================================
+
+TCPWindowSize                       RWIN (TCP Receive Window)
+================
+MSS=MTU-40
+=>1480-40
+=>1440.
+
+65535/MSS
+=>45.51041.
+=>45.
+==>1440x45
+===>64800
+
+valid values for TCPWindowSize are
+64800
+64800*2         ==  129600
+64800*2*2       ==  259200      <----
+64800*2*2*2     ==  518400
+64800*2*2*2*2   == 1036800
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters
+GlobalMaxTcpWindowSize

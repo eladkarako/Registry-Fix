@@ -1,0 +1,26 @@
+
+Windows IP Configuration
+
+        Host Name . . . . . . . . . . . . : yuliag-desktop
+        Primary Dns Suffix  . . . . . . . : discretix.com
+        Node Type . . . . . . . . . . . . : Mixed
+        IP Routing Enabled. . . . . . . . : No
+        WINS Proxy Enabled. . . . . . . . : No
+        DNS Suffix Search List. . . . . . : discretix.com
+                                            discretix.com
+
+Ethernet adapter Local Area Connection:
+
+        Connection-specific DNS Suffix  . : discretix.com
+        Description . . . . . . . . . . . : Broadcom NetXtreme 57xx Gigabit Controller
+        Physical Address. . . . . . . . . : 00-19-B9-38-A7-66
+        Dhcp Enabled. . . . . . . . . . . : Yes
+        Autoconfiguration Enabled . . . . : Yes
+        IP Address. . . . . . . . . . . . : 172.16.8.30
+        Subnet Mask . . . . . . . . . . . : 255.255.0.0
+        Default Gateway . . . . . . . . . : 172.16.1.1
+        DHCP Server . . . . . . . . . . . : 172.16.5.6
+        DNS Servers . . . . . . . . . . . : 172.16.5.6
+                                            172.16.5.2
+        Lease Obtained. . . . . . . . . . : Sunday, May 01, 2011 10:41:07 AM
+        Lease Expires . . . . . . . . . . : Monday, May 09, 2011 10:41:07 AM

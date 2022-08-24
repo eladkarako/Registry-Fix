@@ -1,0 +1,27 @@
+C:\Users\Elad\Desktop>netsh int tcp show global
+Querying active state...
+
+TCP Global Parameters
+----------------------------------------------
+Receive-Side Scaling State          : enabled
+Receive Window Auto-Tuning Level    : normal
+Add-On Congestion Control Provider  : default
+ECN Capability                      : disabled
+RFC 1323 Timestamps                 : disabled
+Initial RTO                         : 1000
+Receive Segment Coalescing State    : enabled
+Non Sack Rtt Resiliency             : disabled
+Max SYN Retransmissions             : 4
+Fast Open                           : enabled
+Fast Open Fallback                  : enabled
+HyStart                             : enabled
+Proportional Rate Reduction         : enabled
+Pacing Profile                      : off
+
+
+check the linux (android) for more information  
+Unsecure, Permissive, Tweaked Prop File, HTC/Samsung/*, Capable Of Being Both As default.prop And/Or build.prop (just remove duplicates from the original file, favouring this version)  
+https://gist.github.com/eladkarako/5694eada31277fdc75cee4043461372e#file-tweaked_build-prop  
+look for "tcp" to get to the section.  
+
+mostly ECN and RFC1323 may help.  

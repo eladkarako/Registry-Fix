@@ -1,0 +1,9 @@
+gpedit.msc
+
+Local Computer Policy
+   Computer Configuration
+      Administrative Templates
+         Network
+            Offline Files
+            
+Allow or Disallow use of the Offline Files feature -> Disabled

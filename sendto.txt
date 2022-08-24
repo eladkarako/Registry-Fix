@@ -1,0 +1,9 @@
+original folder is in:
+C:\Users\Elad\AppData\Roaming\Microsoft\Windows\SendTo
+you can change its location, like documents or pictures folders. 
+make sure to place a shortcut in BOTH
+  C:\Users\Elad\AppData\Roaming\Microsoft\Windows
+and
+  C:\Users\Elad\
+for the newer location, named 'SendTo' (.lnk).
+so when you WIN+R and write 'sendto' [ENTER] it will work (also an indication for probably other things that needs it to work as well).

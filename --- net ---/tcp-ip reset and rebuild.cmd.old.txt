@@ -1,0 +1,58 @@
+netsh advfirewall reset
+netsh advfirewall set allprofiles state off
+
+netsh branchcache reset
+
+netsh http delete cache
+netsh interface ipv4 reset
+netsh interface ipv6 reset
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@echo off
+echo.
+echo -Firewall Reset and Turn-Off.-------------
+echo -----------------------------
+netsh firewall reset
+netsh firewall set opmode mode=DISABLE profile=ALL
+
+echo.
+echo -Routing Lists Clear.-------------
+echo ---------------------
+netsh routing reset
+
+echo.
+echo -Winsock Reset and Rebuild.-------------
+echo ---------------------
+netsh winsock reset
+
+echo.
+echo -Network-Interfaces Reset.-------------
+echo --------------------------
+netsh interface reset all
+
+echo.
+echo -Hardcore TCP/IP Reset and Rebuild.-------------
+echo -----------------------------------
+netsh int ip reset d:\resetlog.txt
+
+echo.
+echo -Done.
+pause
